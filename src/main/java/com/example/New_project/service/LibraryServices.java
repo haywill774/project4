@@ -17,8 +17,6 @@ import java.util.Map;
 
 @Service
 public class LibraryServices {
-
-//    @Autowired
     private final LibraryUsersRepo libraryUsersRepo;
 
     public LibraryServices(LibraryUsersRepo libraryUsersRepo) {
